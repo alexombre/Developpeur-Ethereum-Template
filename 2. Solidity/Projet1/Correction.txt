@@ -1,0 +1,7 @@
+Penser à mettre un README.md, plus propre, plus professionnel, et ça nous permet de mieux comprendre ce qu'il se passe d'un rapide coup d'oeil.
+Attention, tu as utilisé OpenZeppelin V4, toujours utiliser la dernière version des librairies (V5 pour OpenZeppelin). 
+Un minimum de commentaires aurait été le bienvenue. 
+Dans ta fonction de voting, il aurait été pertinent de rajouter un require() pour vérifier si le proposalId existe bel et bien. 
+Le tableau "Proposal" et le mapping "voters" ne doivent pas être en public. 
+Bon travail dans l'ensemble, il faut juste s'attarder un peu plus sur les détails qui sont très importants dans le domaine de la Blockchain.
+2,5
